@@ -8,3 +8,8 @@ RUN apt-get update
 
 # install nodejs and npm
 RUN apt-get install -y nodejs npm git git-core
+RUN npm install express
+
+ADD server.js
+
+ENTRYPOINT nodejs server.js
