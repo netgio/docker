@@ -1,3 +1,4 @@
+## Layered docker file test.
 FROM netgio/node
 MAINTAINER netgio
 
