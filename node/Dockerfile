@@ -1,6 +1,7 @@
 # DOCKER-VERSION 0.10.0
 
 FROM ubuntu:14.04
+MAINTAINER netgio
 
 # make sure apt is up to date
 RUN apt-get update
