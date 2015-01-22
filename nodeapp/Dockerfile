@@ -1,6 +1,6 @@
 FROM netgio/node
 MAINTAINER netgio
 
-ADD server.js
+ADD server.js /home
 
 ENTRYPOINT nodejs server.js
